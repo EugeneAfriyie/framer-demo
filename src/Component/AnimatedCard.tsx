@@ -18,7 +18,7 @@ const AnimatedCard = () => {
 
           transition={{type: 'spring' , stiffness: '300'}}
           className='max-w-sm mx-auto bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer '>
-        <img src="https://unsplash.com/photos/woman-standing-on-hill-in-islet-uZVtAixV8c8" className='w-full h-48  object-cover  ' alt="card image" />
+        <img src="https://media.istockphoto.com/id/1253258894/photo/aerial-view-from-drone-on-tropical-island-with-coconut-palm-trees-and-caribbean-sea.jpg?s=1024x1024&w=is&k=20&c=57vIGpnkhr4wTafAu6bpT2H-YHrPJ34RgndhF8Bj2ec=" className='w-full h-48  object-cover  ' alt="card image" />
 
         <div className="p-6">
           <h2 className="text-xl font-semibold mb-3">
