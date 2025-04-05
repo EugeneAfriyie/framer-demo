@@ -1,8 +1,11 @@
 import React from 'react'
+import AnimatedCard from './Component/AnimatedCard'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <AnimatedCard />
+    </div>
   )
 }
 
