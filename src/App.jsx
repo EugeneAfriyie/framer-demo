@@ -6,7 +6,7 @@ import AnimaterdGallery from './Component/AnimaterdGallery'
 const App = () => {
   return (
     <div>
-      {/* <AnimatedCard /> */}
+      <AnimatedCard />
       {/* <ImageGallery /> */}
       <AnimaterdGallery />
     </div>
