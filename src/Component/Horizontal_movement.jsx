@@ -7,7 +7,6 @@ const Horizontal_movement = () => {
       <motion.div 
         initial={{ x: 0,y:0, borderRadius: '0%' }}
         animate={{ x: [-300,0,100],y:[-100,100], borderRadius: ['0%','25%','50%'] }}
-        // exit={{ x: 0, y: 0, borderRadius: '0%' }}
         transition={{ 
           duration: 3, 
           repeat: Infinity, 
