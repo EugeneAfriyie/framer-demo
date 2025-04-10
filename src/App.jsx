@@ -9,6 +9,7 @@ import Sidebar from './Component/Sidebar'
 import BackgroundChang from './Component/BackgroundChang'
 import WaveEffect_Box from './Component/WaveEffect_Box'
 import FadeIn from './Component/VariantsTrial/FadeIn'
+import NavAni from './Component/VariantsTrial/NavAni'
 
 const App = () => {
   return (
@@ -22,7 +23,8 @@ const App = () => {
       {/* <Sidebar /> */}
       {/* <BackgroundChang /> */}
       {/* <WaveEffect_Box /> */}
-      <FadeIn />
+      {/* <FadeIn /> */}
+      <NavAni />
     </div>
   )
 }
