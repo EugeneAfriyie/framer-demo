@@ -7,6 +7,7 @@ import BouncingCircle from './Component/BouncingCircle'
 import SkewRectangle from './Component/SkewRectangle'
 import Sidebar from './Component/Sidebar'
 import BackgroundChang from './Component/BackgroundChang'
+import WaveEffect_Box from './Component/WaveEffect_Box'
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
       {/* <BouncingCircle /> */}
       {/* <SkewRectangle /> */}
       {/* <Sidebar /> */}
-      <BackgroundChang />
+      {/* <BackgroundChang /> */}
+      <WaveEffect_Box />
     </div>
   )
 }
