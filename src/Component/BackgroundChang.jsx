@@ -21,6 +21,7 @@ const BackgroundChang = () => {
         ease: 'easeInOut',
         repeat: Infinity,
         repeatType: 'reverse',
+        delay:.1
       }}
     >
       BackgroundChang

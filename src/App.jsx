@@ -8,6 +8,7 @@ import SkewRectangle from './Component/SkewRectangle'
 import Sidebar from './Component/Sidebar'
 import BackgroundChang from './Component/BackgroundChang'
 import WaveEffect_Box from './Component/WaveEffect_Box'
+import FadeIn from './Component/VariantsTrial/FadeIn'
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
       {/* <SkewRectangle /> */}
       {/* <Sidebar /> */}
       {/* <BackgroundChang /> */}
-      <WaveEffect_Box />
+      {/* <WaveEffect_Box /> */}
+      <FadeIn />
     </div>
   )
 }
