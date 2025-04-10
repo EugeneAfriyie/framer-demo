@@ -6,6 +6,7 @@ import Horizontal_movement from './Component/Horizontal_movement'
 import BouncingCircle from './Component/BouncingCircle'
 import SkewRectangle from './Component/SkewRectangle'
 import Sidebar from './Component/Sidebar'
+import BackgroundChang from './Component/BackgroundChang'
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       {/* <Horizontal_movement /> */}
       {/* <BouncingCircle /> */}
       {/* <SkewRectangle /> */}
-      <Sidebar />
+      {/* <Sidebar /> */}
+      <BackgroundChang />
     </div>
   )
 }

@@ -11,7 +11,7 @@ const Sidebar = () => {
         transition={{duration: 1,type:'spring',delay:2}}
         
         >xxxx</motion.div>
-        <button className='bg-teal-800 text-white p-2 cursor-pointer`;npmrun`' onClick={() =>setHideSibar(!hideSidebar)}>{hideSidebar ? 'show Sidebbar' : 'Hide sidebar'}</button>
+        <button className='bg-teal-800 text-white p-2 cursor-pointer``' onClick={() =>setHideSibar(!hideSidebar)}>{hideSidebar ? 'show Sidebbar' : 'Hide sidebar'}</button>
     </div>
   )
 }
