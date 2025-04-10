@@ -11,31 +11,54 @@ const GestureGallery = () => {
 
   const [imageIndex, setImageIndex] = useState(0);
 
-  const handleSwipe = (event, info) => {
-    if (info.offset.y > 100) {
+  const handleSwipe = (e, info) => {
+    const { offset } = info;
+
+    // Vertical Swipe
+    if (offset.y > 100) {
       setImageIndex((prev) => (prev - 1 + images.length) % images.length);
-    } else if (info.offset.y < -100) {
+    } else if (offset.y < -100) {
+      setImageIndex((prev) => (prev + 1) % images.length);
+    }
+
+    // Horizontal Swipe
+    if (offset.x > 100) {
+      setImageIndex((prev) => (prev - 1 + images.length) % images.length);
+    } else if (offset.x < -100) {
       setImageIndex((prev) => (prev + 1) % images.length);
     }
   };
 
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex flex-col items-center justify-center h-screen space-y-4">
       <div className="relative w-72 h-72 overflow-hidden">
         <AnimatePresence>
           <motion.img
             key={imageIndex}
             src={images[imageIndex]}
             className="absolute w-full h-full object-cover rounded-xl"
-            drag="y"
-            dragConstraints={{ top: 0, bottom: 0 }}
+            drag
+            dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
             onDragEnd={handleSwipe}
-            initial={{ opacity: 0, y: 100 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -100 }}
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.9 }}
             transition={{ duration: 0.3 }}
           />
         </AnimatePresence>
+      </div>
+
+      {/* Navigation Dots */}
+      <div className="flex space-x-2">
+        {images.map((_, idx) => (
+          <button
+            key={idx}
+            onClick={() => setImageIndex(idx)}
+            className={`w-3 h-3 rounded-full ${
+              idx === imageIndex ? 'bg-blue-500' : 'bg-gray-400'
+            }`}
+          />
+        ))}
       </div>
     </div>
   );
