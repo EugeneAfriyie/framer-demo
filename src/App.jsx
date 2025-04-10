@@ -10,6 +10,7 @@ import BackgroundChang from './Component/BackgroundChang'
 import WaveEffect_Box from './Component/WaveEffect_Box'
 import FadeIn from './Component/VariantsTrial/FadeIn'
 import NavAni from './Component/VariantsTrial/NavAni'
+import ToggleSwith from './Component/VariantsTrial/ToggleSwith'
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
       {/* <BackgroundChang /> */}
       {/* <WaveEffect_Box /> */}
       {/* <FadeIn /> */}
-      <NavAni />
+      {/* <NavAni /> */}
+      <ToggleSwith />
     </div>
   )
 }
