@@ -11,6 +11,7 @@ import WaveEffect_Box from './Component/WaveEffect_Box'
 import FadeIn from './Component/VariantsTrial/FadeIn'
 import NavAni from './Component/VariantsTrial/NavAni'
 import ToggleSwith from './Component/VariantsTrial/ToggleSwith'
+import GestureGallery from './Component/GestureGallery'
 
 const App = () => {
   return (
@@ -26,7 +27,8 @@ const App = () => {
       {/* <WaveEffect_Box /> */}
       {/* <FadeIn /> */}
       {/* <NavAni /> */}
-      <ToggleSwith />
+      {/* <ToggleSwith /> */}
+      <GestureGallery />
     </div>
   )
 }
