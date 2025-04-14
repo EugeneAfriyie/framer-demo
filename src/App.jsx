@@ -12,6 +12,7 @@ import FadeIn from './Component/VariantsTrial/FadeIn'
 import NavAni from './Component/VariantsTrial/NavAni'
 import ToggleSwith from './Component/VariantsTrial/ToggleSwith'
 import GestureGallery from './Component/GestureGallery'
+import ImageVariants from './Component/StaggerVariants/ImageVariants'
 
 const App = () => {
   return (
@@ -28,7 +29,8 @@ const App = () => {
       {/* <FadeIn /> */}
       {/* <NavAni /> */}
       {/* <ToggleSwith /> */}
-      <GestureGallery />
+      {/* <GestureGallery /> */}
+      <ImageVariants />
     </div>
   )
 }
