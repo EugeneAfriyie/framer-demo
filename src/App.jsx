@@ -14,6 +14,7 @@ import ToggleSwith from './Component/VariantsTrial/ToggleSwith'
 import GestureGallery from './Component/GestureGallery'
 import ImageVariants from './Component/StaggerVariants/ImageVariants'
 import TextStagger from './Component/StaggerVariants/TextStagger'
+import TextStaggerLoop from './Component/StaggerVariants/TextStaggerLoop'
 
 const App = () => {
   return (
@@ -32,7 +33,8 @@ const App = () => {
       {/* <ToggleSwith /> */}
       {/* <GestureGallery /> */}
       {/* <ImageVariants /> */}
-      <TextStagger />
+      {/* <TextStagger /> */}
+      <TextStaggerLoop />
     </div>
   )
 }
