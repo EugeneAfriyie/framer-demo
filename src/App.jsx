@@ -15,6 +15,7 @@ import GestureGallery from './Component/GestureGallery'
 import ImageVariants from './Component/StaggerVariants/ImageVariants'
 import TextStagger from './Component/StaggerVariants/TextStagger'
 import TextStaggerLoop from './Component/StaggerVariants/TextStaggerLoop'
+import UseMotionSpring from './Component/VariantsTrial/USEMOTIONVALUE/UseMotionSpring'
 
 const App = () => {
   return (
@@ -34,7 +35,8 @@ const App = () => {
       {/* <GestureGallery /> */}
       {/* <ImageVariants /> */}
       {/* <TextStagger /> */}
-      <TextStaggerLoop />
+      {/* <TextStaggerLoop /> */}
+      <UseMotionSpring />
     </div>
   )
 }
