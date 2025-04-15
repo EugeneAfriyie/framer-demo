@@ -13,6 +13,7 @@ import NavAni from './Component/VariantsTrial/NavAni'
 import ToggleSwith from './Component/VariantsTrial/ToggleSwith'
 import GestureGallery from './Component/GestureGallery'
 import ImageVariants from './Component/StaggerVariants/ImageVariants'
+import TextStagger from './Component/StaggerVariants/TextStagger'
 
 const App = () => {
   return (
@@ -30,7 +31,8 @@ const App = () => {
       {/* <NavAni /> */}
       {/* <ToggleSwith /> */}
       {/* <GestureGallery /> */}
-      <ImageVariants />
+      {/* <ImageVariants /> */}
+      <TextStagger />
     </div>
   )
 }
