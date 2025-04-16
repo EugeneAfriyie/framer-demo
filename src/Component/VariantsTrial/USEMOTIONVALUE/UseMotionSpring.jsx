@@ -2,8 +2,8 @@ import React from 'react'
 import { motion, useMotionValue } from 'framer-motion'
 
 const UseMotionSpring = () => {
-    const x = useMotionValue(1)
-    const y = useMotionValue(1)
+    const x = useMotionValue(0)
+    const y = useMotionValue(0)
 
 
     const moveBox = () =>{

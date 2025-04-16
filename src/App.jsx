@@ -16,6 +16,7 @@ import ImageVariants from './Component/StaggerVariants/ImageVariants'
 import TextStagger from './Component/StaggerVariants/TextStagger'
 import TextStaggerLoop from './Component/StaggerVariants/TextStaggerLoop'
 import UseMotionSpring from './Component/VariantsTrial/USEMOTIONVALUE/UseMotionSpring'
+import UseDynamicRotate from './Component/VariantsTrial/USEMOTIONVALUE/useDynamicRotate'
 
 const App = () => {
   return (
@@ -36,7 +37,8 @@ const App = () => {
       {/* <ImageVariants /> */}
       {/* <TextStagger /> */}
       {/* <TextStaggerLoop /> */}
-      <UseMotionSpring />
+      {/* <UseMotionSpring /> */}
+      <UseDynamicRotate />
     </div>
   )
 }
