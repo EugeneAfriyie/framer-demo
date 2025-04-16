@@ -17,6 +17,7 @@ import TextStagger from './Component/StaggerVariants/TextStagger'
 import TextStaggerLoop from './Component/StaggerVariants/TextStaggerLoop'
 import UseMotionSpring from './Component/VariantsTrial/USEMOTIONVALUE/UseMotionSpring'
 import UseDynamicRotate from './Component/VariantsTrial/USEMOTIONVALUE/useDynamicRotate'
+import FlipCard from './Component/StaggerVariants/FlipCard'
 
 const App = () => {
   return (
@@ -38,7 +39,8 @@ const App = () => {
       {/* <TextStagger /> */}
       {/* <TextStaggerLoop /> */}
       {/* <UseMotionSpring /> */}
-      <UseDynamicRotate />
+      {/* <UseDynamicRotate /> */}
+      <FlipCard />
     </div>
   )
 }
