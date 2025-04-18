@@ -4,8 +4,8 @@ import React from 'react'
 
 
 const inViewVariants ={
-    hidden: { opacity: 0, x: 100,scale: 0.5,rotate:360 },
-    visible: { opacity: 1, x: 0,scale: 1,rotate:0 },
+    hidden: { opacity: 0, y: 100,scale: 0.5,rotate:360 },
+    visible: { opacity: 1, y: 0,scale: 1,rotate:0 },
     exit: { opacity: 0, y: 50,scale: 0.8 },
     when: 'beforeChildren',
 }
