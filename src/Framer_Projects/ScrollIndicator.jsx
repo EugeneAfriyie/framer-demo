@@ -8,9 +8,9 @@ const ScrollIndicator = () => {
     <>
                 {/* RedLine  */}
         <div className="h-[200vh] p-[20px]">
-           <motion.div className="fixed top-0 left-0 h-[5px] bg-red-500"
-            style={{ width: lineWidth }}
-            transition={{ duration: 0.5 }}></motion.div>
+           <motion.div className="fixed top-0 left-0 h-[5px] bg-teal-500"
+            style={{ width: lineWidth,transition: 'width .2s ease' }}
+            />
 
            {/* Random Text  */}
 
