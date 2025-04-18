@@ -19,6 +19,7 @@ import UseMotionSpring from './Component/VariantsTrial/USEMOTIONVALUE/UseMotionS
 import UseDynamicRotate from './Component/VariantsTrial/USEMOTIONVALUE/useDynamicRotate'
 import FlipCard from './Component/StaggerVariants/FlipCard'
 import Inview_timeline from './Component/StaggerVariants/Inview_timeline'
+import ScrollIndicator from './Framer_Projects/ScrollIndicator'
 
 const App = () => {
   return (
@@ -42,7 +43,8 @@ const App = () => {
       {/* <UseMotionSpring /> */}
       {/* <UseDynamicRotate /> */}
       {/* <FlipCard /> */}
-      <Inview_timeline />
+      {/* <Inview_timeline /> */}
+      <ScrollIndicator />
     </div>
   )
 }
