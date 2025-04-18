@@ -18,10 +18,11 @@ import TextStaggerLoop from './Component/StaggerVariants/TextStaggerLoop'
 import UseMotionSpring from './Component/VariantsTrial/USEMOTIONVALUE/UseMotionSpring'
 import UseDynamicRotate from './Component/VariantsTrial/USEMOTIONVALUE/useDynamicRotate'
 import FlipCard from './Component/StaggerVariants/FlipCard'
+import Inview_timeline from './Component/StaggerVariants/Inview_timeline'
 
 const App = () => {
   return (
-    <div className='fle items-center justify-center h-screen bg-slae-900'>
+    <div className='fle items-center justify-center h-screen bg-slae-900 mb-[1000px]'>
       {/* <AnimatedCard /> */}
       {/* <ImageGallery /> */}
       {/* <AnimaterdGallery /> */}
@@ -40,7 +41,8 @@ const App = () => {
       {/* <TextStaggerLoop /> */}
       {/* <UseMotionSpring /> */}
       {/* <UseDynamicRotate /> */}
-      <FlipCard />
+      {/* <FlipCard /> */}
+      <Inview_timeline />
     </div>
   )
 }
