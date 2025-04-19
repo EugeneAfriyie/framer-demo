@@ -22,10 +22,11 @@ import Inview_timeline from './Component/StaggerVariants/Inview_timeline'
 import ScrollIndicator from './Framer_Projects/ScrollIndicator'
 import Loader from './Framer_Projects/Loader'
 import Chat from './Framer_Projects/Chat'
+import Carousel from './Framer_Projects/Carousel'
 
 const App = () => {
   return (
-    <div className='fle items-center justify-center h-screen bg-slae-900  '>
+    <div className='flex items-center justify-center h-screen bg-slae-900  '>
       {/* <AnimatedCard /> */}
       {/* <ImageGallery /> */}
       {/* <AnimaterdGallery /> */}
@@ -48,7 +49,8 @@ const App = () => {
       {/* <Inview_timeline /> */}
       {/* <ScrollIndicator /> */}
       {/* <Loader /> */}
-      <Chat />
+      {/* <Chat /> */}
+      <Carousel />
     </div>
   )
 }
