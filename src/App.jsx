@@ -21,10 +21,11 @@ import FlipCard from './Component/StaggerVariants/FlipCard'
 import Inview_timeline from './Component/StaggerVariants/Inview_timeline'
 import ScrollIndicator from './Framer_Projects/ScrollIndicator'
 import Loader from './Framer_Projects/Loader'
+import Chat from './Framer_Projects/Chat'
 
 const App = () => {
   return (
-    <div className='fle items-center justify-center h-screen bg-slae-900 '>
+    <div className='fle items-center justify-center h-screen bg-slae-900  '>
       {/* <AnimatedCard /> */}
       {/* <ImageGallery /> */}
       {/* <AnimaterdGallery /> */}
@@ -46,7 +47,8 @@ const App = () => {
       {/* <FlipCard /> */}
       {/* <Inview_timeline /> */}
       {/* <ScrollIndicator /> */}
-      <Loader />
+      {/* <Loader /> */}
+      <Chat />
     </div>
   )
 }
