@@ -20,10 +20,11 @@ import UseDynamicRotate from './Component/VariantsTrial/USEMOTIONVALUE/useDynami
 import FlipCard from './Component/StaggerVariants/FlipCard'
 import Inview_timeline from './Component/StaggerVariants/Inview_timeline'
 import ScrollIndicator from './Framer_Projects/ScrollIndicator'
+import Loader from './Framer_Projects/Loader'
 
 const App = () => {
   return (
-    <div className='fle items-center justify-center h-screen bg-slae-900 mb-[1000px]'>
+    <div className='fle items-center justify-center h-screen bg-slae-900 '>
       {/* <AnimatedCard /> */}
       {/* <ImageGallery /> */}
       {/* <AnimaterdGallery /> */}
@@ -44,7 +45,8 @@ const App = () => {
       {/* <UseDynamicRotate /> */}
       {/* <FlipCard /> */}
       {/* <Inview_timeline /> */}
-      <ScrollIndicator />
+      {/* <ScrollIndicator /> */}
+      <Loader />
     </div>
   )
 }
