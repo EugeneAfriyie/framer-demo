@@ -30,7 +30,7 @@ const Carousel = () => {
 
   return (
     <>
-      <div className="relative w-[50%] rounded-lg overflow-hidden">
+      <div className="relative w-[50%] rounded-lg overflow-hidden border border-gray-700">
         <motion.div
           className={`flex mb-[2rem] transition-opacity duration-300 ${
             showThumbnails || isHovered ? "opacity-100" : "opacity-0"
@@ -81,7 +81,7 @@ const Carousel = () => {
           <button
             onClick={prevSlide}
             className={`absolute left-4 transform
-             -translate-y-1/2 p-2 shadow transition-opacity duration-300 ${
+             -translate-y-1/2 p-2 top-1/2 z- shadow transition-opacity duration-300 ${
                isHovered ? "opacity-100" : "opacity-0"
              }`}
           >
@@ -90,7 +90,7 @@ const Carousel = () => {
           <button
             onClick={nextSlide}
             className={`absolute right-4 transform 
-            -translate-y-1/2 p-2 shadow transition-opacity duration-300 ${
+            -translate-y-1/2 p-2 shadow top-1/2 z- transition-opacity duration-300 ${
               isHovered ? "opacity-100" : "opacity-0"
             }`}
           >
