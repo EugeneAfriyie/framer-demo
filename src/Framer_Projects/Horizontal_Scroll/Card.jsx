@@ -1,4 +1,4 @@
-const Card = ({ card }: any) => {
+const Card = () => {
     return (
       <div
         key={card.id}
