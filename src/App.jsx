@@ -23,6 +23,7 @@ import ScrollIndicator from './Framer_Projects/ScrollIndicator'
 import Loader from './Framer_Projects/Loader'
 import Chat from './Framer_Projects/Chat'
 import Carousel from './Framer_Projects/Carousel'
+import Sidebar_Proj from './Sidebar_Proj'
 
 const App = () => {
   return (
@@ -50,7 +51,8 @@ const App = () => {
       {/* <ScrollIndicator /> */}
       {/* <Loader /> */}
       {/* <Chat /> */}
-      <Carousel />
+      {/* <Carousel /> */}
+      <Sidebar_Proj />
     </div>
   )
 }
