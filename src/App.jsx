@@ -25,6 +25,7 @@ import Chat from './Framer_Projects/Chat'
 import Carousel from './Framer_Projects/Carousel'
 import Sidebar_Proj from './Sidebar_Proj'
 import Scroll_Carousel from './Framer_Projects/Horizontal_Scroll/Scroll_Carousel'
+import StickyNav from './Framer_Projects/Sticky_NavBar/StickyNav'
 
 const App = () => {
   return (
@@ -54,7 +55,8 @@ const App = () => {
       {/* <Chat /> */}
       {/* <Carousel /> */}
       {/* <Sidebar_Proj /> */}
-      < Scroll_Carousel />
+      {/* < Scroll_Carousel /> */}
+      <StickyNav />
     </div>
   )
 }
