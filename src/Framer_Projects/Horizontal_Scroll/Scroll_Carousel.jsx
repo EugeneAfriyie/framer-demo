@@ -1,9 +1,9 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import Card from "./Card";
-import { cards } from "../utils/data";
+import { cards } from "./utils/Data";
 
-const ScrollCarousel = () => {
+const Scroll_Carousel = () => {
   const targetRef = useRef(null);
 
   const { scrollYProgress } = useScroll({
@@ -25,4 +25,4 @@ const ScrollCarousel = () => {
   );
 };
 
-export default ScrollCarousel;
+export default Scroll_Carousel;

@@ -24,10 +24,11 @@ import Loader from './Framer_Projects/Loader'
 import Chat from './Framer_Projects/Chat'
 import Carousel from './Framer_Projects/Carousel'
 import Sidebar_Proj from './Sidebar_Proj'
+import Scroll_Carousel from './Framer_Projects/Horizontal_Scroll/Scroll_Carousel'
 
 const App = () => {
   return (
-    <div className='flex items-center justify-center h-screen bg-slae-900  '>
+    <div className=' '>
       {/* <AnimatedCard /> */}
       {/* <ImageGallery /> */}
       {/* <AnimaterdGallery /> */}
@@ -52,7 +53,8 @@ const App = () => {
       {/* <Loader /> */}
       {/* <Chat /> */}
       {/* <Carousel /> */}
-      <Sidebar_Proj />
+      {/* <Sidebar_Proj /> */}
+      < Scroll_Carousel />
     </div>
   )
 }
