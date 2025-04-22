@@ -12,7 +12,7 @@ const StickyNav = () => {
     visible: (i) => ({
       opacity: 1,
       y: 0,
-      transition: { delay: i * 0.1, duration: 0.6 },
+      transition: { delay: i * 0.1, duration: 0.3 },
     }),
   };
 
@@ -27,7 +27,7 @@ const StickyNav = () => {
         <div className="flex flex-col">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
-              <div className="ml-2 font-semibold uppercase">HuXn</div>
+              <div className="ml-2 font-semibold uppercase">Eugene</div>
             </div>
             <div className="hidden md:flex space-x-5 text-center">
               <a href="#" className="text-black font-bold">
