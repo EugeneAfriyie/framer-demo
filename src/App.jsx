@@ -26,6 +26,7 @@ import Carousel from './Framer_Projects/Carousel'
 import Sidebar_Proj from './Sidebar_Proj'
 import Scroll_Carousel from './Framer_Projects/Horizontal_Scroll/Scroll_Carousel'
 import StickyNav from './Framer_Projects/Sticky_NavBar/StickyNav'
+import ProgressSteps from './Framer_Projects/ProgressStep/ProgressSteps'
 
 const App = () => {
   return (
@@ -56,7 +57,8 @@ const App = () => {
       {/* <Carousel /> */}
       {/* <Sidebar_Proj /> */}
       {/* < Scroll_Carousel /> */}
-      <StickyNav />
+      {/* <StickyNav /> */}
+      <ProgressSteps />
     </div>
   )
 }

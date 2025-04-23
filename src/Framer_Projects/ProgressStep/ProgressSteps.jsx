@@ -25,18 +25,18 @@ const ProgressSteps = () => {
 
   return (
     <div className="flex flex-col items-center p-5">
-      <div className="relative flex justify-between w-[40rem] mb-5">
+      <div className="relative flex justify-between w-[40rem] mb-5 border ">
         <motion.div
-          className="absolute h-1 bg-blue-500 mt-[1rem]"
+          className="absolute h-1 bg-blue-500 mt-[1rem] 7"
           style={{
-            width: `${((currentStep + 0) / steps.length) * 130}%`,
+            width: `${((currentStep ) / steps.length) * 130}%`,
             transition: "width 0.3s ease",
           }}
         />
         {steps.map((step, index) => (
           <div key={index} className="flex flex-col items-center relative">
             <motion.div
-              className={`h-10 w-10  flex justify-center items-center rounded-full border-2 ${
+              className={`h-10 w-10  flex justify-center items-center rounded-full  ${
                 index <= currentStep ? "bg-blue-500" : "bg-gray-200"
               }`}
               whileHover={{ scale: 1.1 }}
@@ -54,6 +54,7 @@ const ProgressSteps = () => {
           </div>
         ))}
       </div>
+      
       <motion.div
         className="text-center p-5 w-[40rem] h-[10rem] border rounded-lg shadow-md"
         key={currentStep}
@@ -65,6 +66,7 @@ const ProgressSteps = () => {
         <h2 className="text-xl font-bold">{steps[currentStep].title}</h2>
         <p className="mt-2">{steps[currentStep].description}</p>
       </motion.div>
+      
       <div className="flex mt-5 space-x-4">
         <button
           onClick={prevStep}
