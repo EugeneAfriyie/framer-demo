@@ -25,7 +25,7 @@ const ProgressSteps = () => {
 
   return (
     <div className="flex flex-col items-center p-5">
-      <div className="relative flex justify-between w-[40rem] mb-5 border ">
+      <div className="relative flex justify-between w-[40rem] mb-5  ">
         <motion.div
           className="absolute h-1 bg-blue-500 mt-[1rem] 7"
           style={{
